@@ -6,7 +6,7 @@ export default class PostStatusFilter extends Component {
     constructor(props) {
         super(props);
         this.buttons = [
-            {name: 'all', label : 'All'},
+            {name: 'all', label : 'All Posts'},
             {name: 'like', label : 'Liked'}
         ]
     }
