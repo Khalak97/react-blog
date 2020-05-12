@@ -23,7 +23,7 @@ h2 {
 const AppHeader = ({liked, allPosts}) => {
     return (
         <Header colored>
-            <h1>Volodymyr Khalak</h1>
+            <h1>My Blog</h1>
             <h2>{allPosts} posts, liked {liked}</h2>
         </Header>
     )
